@@ -33,7 +33,7 @@ The red stripe on Eurorack module power connectors should be towards the bottom 
 - The resistor values are just a guess. They're simply there to make the power indicator LEDs a bit dimmer.
 - The LEDs and the pin headers below them are the same thing. If you're connecting an LED via a header, ensure the positive leg connects to the + pin.
 - If you don't want to use the LEDs you can leave the resistors, LEDs and associated headers unpopulated. They are not required for operation of the power bus.
-- The interconnect header & socket are shown to be mounted on the back on the boards. The boards are intended to be installed in your Eurorack on standoffs.
+- The interconnect header & socket are shown to be mounted on the back on the boards. The boards are intended to be installed in your Eurorack case on standoffs.
 - If you don't want to connect a module to the left or right, leave the interconnect header or socket unpopulated.
 - There's an additional power header on the left side of the board. This header is entirely optional.
 - You can probably only populate the filter capacitors on one of your boards. Or none of them... They optional.
