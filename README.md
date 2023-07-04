@@ -39,3 +39,29 @@ The red stripe on Eurorack module power connectors should be towards the bottom 
 - You can probably only populate the filter capacitors on one of your boards. Or none of them... They optional.
 - All signals are passed through all interconnected power bus modules.
 - The Gate and CV lines of the Doepfer bus are connected, inclusive of module interconnects.
+
+# BOM
+
+(Yeah, I know this needs work)
+
+|Id |Designator |Package                                         |Quantity|Designation    |Supplier and ref|FIELD7|FIELD8|
+|---|-----------|------------------------------------------------|--------|---------------|----------------|------|------|
+|1  |R2,R3      |R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|2       |47k            |                |      |      |
+|2  |J2         |IDC-Header_2x08_P2.54mm_Vertical                |1       |B              |                |      |      |
+|3  |C3,C2,C1   |CP_Radial_D8.0mm_P3.50mm                        |3       |47uF           |                |      |      |
+|4  |J10        |PinHeader_1x02_P2.54mm_Vertical                 |1       |-12V           |                |      |      |
+|5  |J1         |IDC-Header_2x08_P2.54mm_Vertical                |1       |A              |                |      |      |
+|6  |J9         |PinHeader_1x02_P2.54mm_Vertical                 |1       |+12V           |                |      |      |
+|7  |H3,H2,H1,H4|MountingHole_3.2mm_M3_DIN965_Pad                |4       |GND            |                |      |      |
+|8  |J4         |IDC-Header_2x08_P2.54mm_Vertical                |1       |D              |                |      |      |
+|9  |J3         |IDC-Header_2x08_P2.54mm_Vertical                |1       |C              |                |      |      |
+|10 |D3         |LED_D3.0mm                                      |1       |-12V           |                |      |      |
+|11 |D1         |LED_D3.0mm                                      |1       |+5V            |                |      |      |
+|12 |J8         |PinHeader_1x02_P2.54mm_Vertical                 |1       |+5V            |                |      |      |
+|13 |D2         |LED_D3.0mm                                      |1       |+12V           |                |      |      |
+|14 |R1         |R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|1       |12k            |                |      |      |
+|15 |J5         |IDC-Header_2x08_P2.54mm_Vertical                |1       |E              |                |      |      |
+|16 |J11        |IDC-Header_2x08_P2.54mm_Vertical                |1       |F              |                |      |      |
+|17 |J12        |PinHeader_1x04_P2.54mm_Vertical                 |1       |Conn_01x04_Male|                |      |      |
+|18 |J6         |PinSocket_1x08_P2.54mm_Horizontal               |1       |IO1            |                |      |      |
+|19 |J7         |PinHeader_1x08_P2.54mm_Horizontal               |1       |IO2            |                |      |      |
