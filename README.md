@@ -20,9 +20,9 @@ I think the only differentator with Merp from the other power bus PCBs is that M
 
 There are 6 power bus connectors per board. If you order 5 boards you can connect them all together and have 30 x 16 pin Doepfer sockets (I hope you have at least 104 hp rails if you're doing that) 
 
-This board rquires +12V, -12V and +5V supplies. I'm using [Meanwell RT-65](https://www.meanwell.com/webapp/product/search.aspx?prod=RT-65) to power mine. The board has no +5V conversion and performs no power regulation. If none of your Eurorack modules use +5V you can get away without it. Use a tested power supply. Turn everything on with none of your precious Eurorack modules connected and ensure the 3 LEDs are lit.
+This board rquires +12V, -12V and +5V supplies. I'm using [Meanwell RT-65](https://www.meanwell.com/webapp/product/search.aspx?prod=RT-65) to power mine. The board has no +5V conversion and performs no power regulation. If none of your Eurorack modules use +5V you can get away without it.
 
-The mounting holes are suitable for M3 bolts & standoffs.  
+Use a tested power supply. Before connecting any of your precious Eurorack modules, power up just the bus board. Ensure the LEDs are lit. Ensure that the correct voltages present. Then connect a Beringer module or something in case it blows up. 
 
 # Renders
 
@@ -53,6 +53,7 @@ The red line on Eurorack module power connectors are to be installed towards the
 - You can probably only populate the filter capacitors on one of your boards. Or none of them... They're optional.
 - All signals are passed through all interconnected power bus modules.
 - The Gate and CV lines of the Doepfer bus are connected, inclusive of module interconnects.
+-  The mounting holes are suitable for M3 bolts & standoffs.
 
 # BOM
 
