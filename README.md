@@ -1,14 +1,28 @@
 # Merp
 
+Modular Eurorack Powerbus (Merp) is yet another power bus [KiCad](https://www.kicad.org/) project. Yes, we're truly breaking new ground here... This has never been done before. Ahem.
+
 🛑 This is untested. Do not build this thing. I will post an update when it's been tested.
 
-Modular Eurorack Powerbus (Merp) is yet another power bus [KiCad](https://www.kicad.org/) project. Yes, we're truly breaking new ground here... This has never been done before.
+## Todo
 
-I think the only differentator with this from the other power bus PCBs is that this one is designed to be ordered from one of the Chinese PCB fabs for their minimum price. The width of the board is 100mm while the height is much less than that. [PCBWay](https://www.pcbway.com/) for example currently has 5 boards for $5 if they're under 100mm x 100mm. If you order 5 boards you can connect them all together and have 30 x 16 pin Doepfer sockets (I hope you have 104 hp rails if you're doing that). 
+- Build up a couple of these things whenever they show up and make sure they work.
+- I am new to KiCAD and I have no idea what I'm doing. If I didn't screw something fundemental up I'll be shocked.
+- It would be a good idea to use a different power connector instead of a 4 pin male header. It would really suck if you plugged the power connector in upside down.
 
-This board rquires +12V, -12V and +5V supplies. I'm using [Meanwell RT-65](https://www.meanwell.com/webapp/product/search.aspx?prod=RT-65) to power mine. The board has no +5V conversion and does no power regulation. If none of your Eurorack modules use +5V you can get away without it.
+## Never been done before, eh?
 
-The mounting holes are suitable for M3 bolts & standoffs. Through hole components are used exclusively.  
+OK. I may have started with [Eurorack Bus Board](https://github.com/butchwarns/Eurorack_Bus_Board) by Butch Warns. I was going to just order it but it was too wide for the cheap PCB fabrications. I think I iteerated on his work enough to call this its own thing.
+
+## Why Merp?
+
+I think the only differentator with Merp from the other power bus PCBs is that Merp is designed to be ordered from one of the Chinese PCB fabs for their minimum price. [PCBWay](https://www.pcbway.com/) for example currently has 5 boards for $5 if they're under 100mm x 100mm which Merp qualifies for.
+
+There are 6 power bus connectors per board. If you order 5 boards you can connect them all together and have 30 x 16 pin Doepfer sockets (I hope you have at least 104 hp rails if you're doing that) 
+
+This board rquires +12V, -12V and +5V supplies. I'm using [Meanwell RT-65](https://www.meanwell.com/webapp/product/search.aspx?prod=RT-65) to power mine. The board has no +5V conversion and performs no power regulation. If none of your Eurorack modules use +5V you can get away without it. Use a tested power supply. Turn everything on with none of your precious Eurorack modules connected and ensure the 3 LEDs are lit.
+
+The mounting holes are suitable for M3 bolts & standoffs.  
 
 # Renders
 
