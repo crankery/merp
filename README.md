@@ -22,7 +22,7 @@ Here's some pictures of the board that KiCad generated.
 
 ![](images/merp_front2.png?raw=true)
 
-The red line on Eurorack module power connectors are to be installed be towards the bottom of the board as indicated.
+The red line on Eurorack module power connectors are to be installed towards the bottom of the board as indicated.
 
 ## Back
 
