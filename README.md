@@ -36,7 +36,7 @@ The red stripe on Eurorack module power connectors should be towards the bottom 
 - The interconnect header & socket are shown to be mounted on the back on the boards. The boards are intended to be installed in your Eurorack case on standoffs.
 - If you don't want to connect a module to the left or right, leave the interconnect header or socket unpopulated.
 - There's an additional power header on the left side of the board. This header is entirely optional.
-- You can probably only populate the filter capacitors on one of your boards. Or none of them... They optional.
+- You can probably only populate the filter capacitors on one of your boards. Or none of them... They're optional.
 - All signals are passed through all interconnected power bus modules.
 - The Gate and CV lines of the Doepfer bus are connected, inclusive of module interconnects.
 
