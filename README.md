@@ -2,8 +2,6 @@
 
 Modular Eurorack Powerbus (Merp) is yet another power bus [KiCad](https://www.kicad.org/) project. Yes, we're truly breaking new ground here... This has never been done before. Ahem.
 
-🛑 This is untested. Do not build this thing. I will post an update when it's been tested.
-
 ## Todo
 
 - Build up a couple of these things whenever they show up and make sure they work.
@@ -36,7 +34,7 @@ Here's some pictures of the board that KiCad generated.
 
 ![](images/merp_front2.png?raw=true)
 
-The red line on Eurorack module power connectors are to be installed towards the bottom of the board as indicated.
+The red line on Eurorack module power connectors are to be installed towards the bottom of the board as indicated although this should be enforced by the IDC connector notches.
 
 ## Back
 
@@ -53,7 +51,8 @@ The red line on Eurorack module power connectors are to be installed towards the
 - You can probably only populate the filter capacitors on one of your boards. Or none of them... They're optional.
 - All signals are passed through all interconnected power bus modules.
 - The Gate and CV lines of the Doepfer bus are connected, inclusive of module interconnects.
--  The mounting holes are suitable for M3 bolts & standoffs.
+- The mounting holes are suitable for M3 bolts & standoffs.
+  - 🛑 Unfortunately, the top row of mounting holes are in the way of the interconnects if you mount them on the bottom of the board as intended. They're ok if you top mount them or aren't using them.
 
 # BOM
 
