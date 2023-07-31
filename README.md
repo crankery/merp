@@ -2,12 +2,6 @@
 
 Modular Eurorack Powerbus (Merp) is yet another power bus [KiCad](https://www.kicad.org/) project. Yes, we're truly breaking new ground here... This has never been done before. Ahem.
 
-## Todo
-
-- Build up a couple of these things whenever they show up and make sure they work.
-- I am new to KiCAD and I have no idea what I'm doing. If I didn't screw something fundemental up I'll be shocked.
-- It would be a good idea to use a different power connector instead of a 4 pin male header. It would really suck if you plugged the power connector in upside down.
-
 ## Never been done before, eh?
 
 OK. I may have started with [Eurorack Bus Board](https://github.com/butchwarns/Eurorack_Bus_Board) by Butch Warns. I was going to just order it but it was too wide for the cheap PCB fabrications. I think I iteerated on his work enough to call this its own thing.
@@ -55,26 +49,16 @@ The red line on Eurorack module power connectors are to be installed towards the
 
 # BOM
 
-(Yeah, I know this needs work)
+All parts are THT.
 
-|Id |Designator |Package                                         |Quantity|Designation    |Supplier and ref|FIELD7|FIELD8|
-|---|-----------|------------------------------------------------|--------|---------------|----------------|------|------|
-|1  |R2,R3      |R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|2       |47k            |                |      |      |
-|2  |J2         |IDC-Header_2x08_P2.54mm_Vertical                |1       |B              |                |      |      |
-|3  |C3,C2,C1   |CP_Radial_D8.0mm_P3.50mm                        |3       |47uF           |                |      |      |
-|4  |J10        |PinHeader_1x02_P2.54mm_Vertical                 |1       |-12V           |                |      |      |
-|5  |J1         |IDC-Header_2x08_P2.54mm_Vertical                |1       |A              |                |      |      |
-|6  |J9         |PinHeader_1x02_P2.54mm_Vertical                 |1       |+12V           |                |      |      |
-|7  |H3,H2,H1,H4|MountingHole_3.2mm_M3_DIN965_Pad                |4       |GND            |                |      |      |
-|8  |J4         |IDC-Header_2x08_P2.54mm_Vertical                |1       |D              |                |      |      |
-|9  |J3         |IDC-Header_2x08_P2.54mm_Vertical                |1       |C              |                |      |      |
-|10 |D3         |LED_D3.0mm                                      |1       |-12V           |                |      |      |
-|11 |D1         |LED_D3.0mm                                      |1       |+5V            |                |      |      |
-|12 |J8         |PinHeader_1x02_P2.54mm_Vertical                 |1       |+5V            |                |      |      |
-|13 |D2         |LED_D3.0mm                                      |1       |+12V           |                |      |      |
-|14 |R1         |R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal|1       |12k            |                |      |      |
-|15 |J5         |IDC-Header_2x08_P2.54mm_Vertical                |1       |E              |                |      |      |
-|16 |J11        |IDC-Header_2x08_P2.54mm_Vertical                |1       |F              |                |      |      |
-|17 |J12        |PinHeader_1x04_P2.54mm_Vertical                 |1       |Conn_01x04_Male|                |      |      |
-|18 |J6         |PinSocket_1x08_P2.54mm_Horizontal               |1       |IO1            |                |      |      |
-|19 |J7         |PinHeader_1x08_P2.54mm_Horizontal               |1       |IO2            |                |      |      |
+|Designator |Package                                         |Quantity|Designation    |
+|-----------|------------------------------------------------|--------|---------------|
+|R1         |Axial Resistor 1/4W |1       |12k*            |
+|R2,R3      |Axial Resistor 1/4W|2       |47k*            |
+|J1,J2,J3,J4,J5,J10,J11|16 Pin Eurorack Power Male|6       |A,B,C,D,E,F              |
+|C3,C2,C1   |Electrolytic Capactior                         |3       |47uF           |
+|D1,D2,D3         |3mm LED                                      |1       |+5V,+12V,-12V           |
+|J8,J9,J10         |Pin Header 1x2 2.54mm Pitch Vertical                 |3       |+5V,+12V,-12V            |
+|J12        |Pin Connector 1x4 2.54mm Pitch                 |1       ||
+|J6         |Pin Socket 1x8 2.54mm Pitch Horizontal                |1       |IO1            |
+|J7         |Pin Header 1x8 2.54mm Pitch Horizontal               |1       |IO2            |
