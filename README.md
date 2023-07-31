@@ -4,7 +4,7 @@ Modular Eurorack Powerbus (Merp) is yet another power bus [KiCad](https://www.ki
 
 ## Never been done before, eh?
 
-OK. I may have started with [Eurorack Bus Board](https://github.com/butchwarns/Eurorack_Bus_Board) by Butch Warns. I was going to just order it but it was too wide for the cheap PCB fabrications. I think I iteerated on his work enough to call this its own thing.
+OK. I may have started with [Eurorack Bus Board](https://github.com/butchwarns/Eurorack_Bus_Board) by Butch Warns. I was going to just order it but it was too wide for the cheap PCB fabrications. I think I iterated on his work enough to call this its own thing.
 
 ## Why Merp?
 
@@ -14,7 +14,7 @@ There are 6 power bus connectors per board. If you order 5 boards you can connec
 
 This board rquires +12V, -12V and +5V supplies. I'm using [Meanwell RT-65](https://www.meanwell.com/webapp/product/search.aspx?prod=RT-65) to power mine. The board has no +5V conversion and performs no power regulation. If none of your Eurorack modules use +5V you can get away without it.
 
-Use a tested power supply. Before connecting any of your precious Eurorack modules, power up just the bus board. Ensure the LEDs are lit. Ensure that the correct voltages present. Then connect a Beringer module or something in case it blows up. 
+Use a tested power supply. Before connecting any of your Eurorack modules, power up just the bus board. Ensure the LEDs are lit. Ensure that the correct voltages present.
 
 # Renders
 
@@ -51,14 +51,14 @@ The red line on Eurorack module power connectors are to be installed towards the
 
 All parts are THT.
 
-|Designator |Package                                         |Quantity|Designation    |
-|-----------|------------------------------------------------|--------|---------------|
-|R1         |Axial Resistor 1/4W |1       |12k*            |
-|R2,R3      |Axial Resistor 1/4W|2       |47k*            |
-|J1,J2,J3,J4,J5,J10,J11|16 Pin Eurorack Power Male|6       |A,B,C,D,E,F              |
-|C3,C2,C1   |Electrolytic Capactior                         |3       |47uF           |
-|D1,D2,D3         |3mm LED                                      |1       |+5V,+12V,-12V           |
-|J8,J9,J10         |Pin Header 1x2 2.54mm Pitch Vertical                 |3       |+5V,+12V,-12V            |
-|J12        |Pin Connector 1x4 2.54mm Pitch                 |1       ||
-|J6         |Pin Socket 1x8 2.54mm Pitch Horizontal                |1       |IO1            |
-|J7         |Pin Header 1x8 2.54mm Pitch Horizontal               |1       |IO2            |
+|Designator|Package|Quantity|Designation|
+|-|-|-|-|
+|R1|Axial Resistor 1/4W |1|12k*|
+|R2,R3|Axial Resistor 1/4W|2|47k*|
+|J1,J2,J3,J4,J5,J10,J11|16 Pin Eurorack Power Male|6|A,B,C,D,E,F|
+|C3,C2,C1|Electrolytic Capactior|3|47uF|
+|D1,D2,D3|3mm LED|1|+5V,+12V,-12V|
+|J8,J9,J10|Pin Header 1x2 2.54mm Pitch Vertical|3|+5V,+12V,-12V|
+|J12|Pin Connector 1x4 2.54mm Pitch|1||
+|J6|Pin Socket 1x8 2.54mm Pitch Horizontal|1|IO1|
+|J7|Pin Header 1x8 2.54mm Pitch Horizontal|1|IO2|
